@@ -16,8 +16,12 @@
 		37250CAA15654A4100DA004E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37250CA915654A4100DA004E /* AppDelegate.m */; };
 		37250CAD15654A4100DA004E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37250CAB15654A4100DA004E /* MainStoryboard.storyboard */; };
 		37250CB015654A4100DA004E /* MyFavoriteApps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37250CAE15654A4100DA004E /* MyFavoriteApps.xcdatamodeld */; };
-		37250CB315654A4100DA004E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37250CB215654A4100DA004E /* MasterViewController.m */; };
-		37250CB615654A4200DA004E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37250CB515654A4200DA004E /* DetailViewController.m */; };
+		37250CBE15655A0800DA004E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37250CBD15655A0800DA004E /* HomeViewController.m */; };
+		37250CC415655D8F00DA004E /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37250CC315655D8F00DA004E /* Data.plist */; };
+		37250CCB15655FFB00DA004E /* DataSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 37250CCA15655FFB00DA004E /* DataSingleton.m */; };
+		37250CF2156579C900DA004E /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 37250CF1156579C900DA004E /* Category.m */; };
+		37250CF5156579C900DA004E /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 37250CF4156579C900DA004E /* Artist.m */; };
+		37250CF8156579C900DA004E /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 37250CF7156579C900DA004E /* Application.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,18 +30,25 @@
 		37250C9915654A4000DA004E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37250C9B15654A4000DA004E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		37250C9D15654A4000DA004E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		37250CA115654A4000DA004E /* MyFavoriteApps-Info.plist */ = {isa = PBXFileReference; path = "MyFavoriteApps-Info.plist"; sourceTree = "<group>"; };
+		37250CA115654A4000DA004E /* MyFavoriteApps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFavoriteApps-Info.plist"; sourceTree = "<group>"; };
 		37250CA315654A4000DA004E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37250CA515654A4000DA004E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		37250CA715654A4000DA004E /* MyFavoriteApps-Prefix.pch */ = {isa = PBXFileReference; path = "MyFavoriteApps-Prefix.pch"; sourceTree = "<group>"; };
-		37250CA815654A4100DA004E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		37250CA715654A4000DA004E /* MyFavoriteApps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFavoriteApps-Prefix.pch"; sourceTree = "<group>"; };
+		37250CA815654A4100DA004E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37250CA915654A4100DA004E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		37250CAC15654A4100DA004E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		37250CAF15654A4100DA004E /* MyFavoriteApps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyFavoriteApps.xcdatamodel; sourceTree = "<group>"; };
-		37250CB115654A4100DA004E /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
-		37250CB215654A4100DA004E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		37250CB415654A4100DA004E /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
-		37250CB515654A4200DA004E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		37250CBC15655A0800DA004E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		37250CBD15655A0800DA004E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		37250CC315655D8F00DA004E /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		37250CC915655FFB00DA004E /* DataSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSingleton.h; sourceTree = "<group>"; };
+		37250CCA15655FFB00DA004E /* DataSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSingleton.m; sourceTree = "<group>"; };
+		37250CF0156579C800DA004E /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		37250CF1156579C900DA004E /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		37250CF3156579C900DA004E /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
+		37250CF4156579C900DA004E /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
+		37250CF6156579C900DA004E /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
+		37250CF7156579C900DA004E /* Application.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Application.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,11 +100,11 @@
 				37250CA815654A4100DA004E /* AppDelegate.h */,
 				37250CA915654A4100DA004E /* AppDelegate.m */,
 				37250CAB15654A4100DA004E /* MainStoryboard.storyboard */,
-				37250CB115654A4100DA004E /* MasterViewController.h */,
-				37250CB215654A4100DA004E /* MasterViewController.m */,
-				37250CB415654A4100DA004E /* DetailViewController.h */,
-				37250CB515654A4200DA004E /* DetailViewController.m */,
-				37250CAE15654A4100DA004E /* MyFavoriteApps.xcdatamodeld */,
+				37250CBC15655A0800DA004E /* HomeViewController.h */,
+				37250CBD15655A0800DA004E /* HomeViewController.m */,
+				37250CC915655FFB00DA004E /* DataSingleton.h */,
+				37250CCA15655FFB00DA004E /* DataSingleton.m */,
+				37250D031565A09900DA004E /* Managed Objects & Data */,
 				37250CA015654A4000DA004E /* Supporting Files */,
 			);
 			path = MyFavoriteApps;
@@ -108,6 +119,21 @@
 				37250CA715654A4000DA004E /* MyFavoriteApps-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37250D031565A09900DA004E /* Managed Objects & Data */ = {
+			isa = PBXGroup;
+			children = (
+				37250CC315655D8F00DA004E /* Data.plist */,
+				37250CAE15654A4100DA004E /* MyFavoriteApps.xcdatamodeld */,
+				37250CF6156579C900DA004E /* Application.h */,
+				37250CF7156579C900DA004E /* Application.m */,
+				37250CF3156579C900DA004E /* Artist.h */,
+				37250CF4156579C900DA004E /* Artist.m */,
+				37250CF0156579C800DA004E /* Category.h */,
+				37250CF1156579C900DA004E /* Category.m */,
+			);
+			name = "Managed Objects & Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +189,7 @@
 			files = (
 				37250CA415654A4000DA004E /* InfoPlist.strings in Resources */,
 				37250CAD15654A4100DA004E /* MainStoryboard.storyboard in Resources */,
+				37250CC415655D8F00DA004E /* Data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +203,11 @@
 				37250CA615654A4000DA004E /* main.m in Sources */,
 				37250CAA15654A4100DA004E /* AppDelegate.m in Sources */,
 				37250CB015654A4100DA004E /* MyFavoriteApps.xcdatamodeld in Sources */,
-				37250CB315654A4100DA004E /* MasterViewController.m in Sources */,
-				37250CB615654A4200DA004E /* DetailViewController.m in Sources */,
+				37250CBE15655A0800DA004E /* HomeViewController.m in Sources */,
+				37250CCB15655FFB00DA004E /* DataSingleton.m in Sources */,
+				37250CF2156579C900DA004E /* Category.m in Sources */,
+				37250CF5156579C900DA004E /* Artist.m in Sources */,
+				37250CF8156579C900DA004E /* Application.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

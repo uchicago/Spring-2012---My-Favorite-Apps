@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Artist</key>
+		<string>Rovio</string>
+		<key>Categories</key>
+		<string>Games</string>
+		<key>Application</key>
+		<string>Angry Birds</string>
+	</dict>
+	<dict>
+		<key>Artist</key>
+		<string>Apple</string>
+		<key>Categories</key>
+		<string>Productivity,Business</string>
+		<key>Application</key>
+		<string>Pages</string>
+	</dict>
+	<dict>
+		<key>Artist</key>
+		<string>Chillingo</string>
+		<key>Categories</key>
+		<string>Games</string>
+		<key>Application</key>
+		<string>Cut the Rope</string>
+	</dict>
+	<dict>
+		<key>Artist</key>
+		<string>Chillingo</string>
+		<key>Categories</key>
+		<string>Games</string>
+		<key>Application</key>
+		<string>Sneezies</string>
+	</dict>
+	<dict>
+		<key>Artist</key>
+		<string>Remember the Milk</string>
+		<key>Categories</key>
+		<string>Productivity</string>
+		<key>Application</key>
+		<string>Remember the Milk</string>
+	</dict>
+	<dict>
+		<key>Artist</key>
+		<string>Cultured Code</string>
+		<key>Categories</key>
+		<string>Productivty</string>
+		<key>Application</key>
+		<string>Tasks</string>
+	</dict>
+	<dict>
+		<key>Artist</key>
+		<string>Adobe</string>
+		<key>Categories</key>
+		<string>Business</string>
+		<key>Application</key>
+		<string>Adobe Reader</string>
+	</dict>
+	<dict>
+		<key>Artist</key>
+		<string>Adobe</string>
+		<key>Categories</key>
+		<string>Business</string>
+		<key>Application</key>
+		<string>Photoshop</string>
+	</dict>
+	<dict>
+		<key>Artist</key>
+		<string>Zygna</string>
+		<key>Categories</key>
+		<string>Game</string>
+		<key>Application</key>
+		<string>Draw Something</string>
+	</dict>
+	<dict>
+		<key>Artist</key>
+		<string>Old MacDonald</string>
+		<key>Categories</key>
+		<string>Education</string>
+		<key>Application</key>
+		<string>Duck Duck Moose</string>
+	</dict>
+	<dict>
+		<key>Artist</key>
+		<string>Adobe</string>
+		<key>Categories</key>
+		<string>Business</string>
+		<key>Application</key>
+		<string>In-Design</string>
+	</dict>
+</array>
+</plist>

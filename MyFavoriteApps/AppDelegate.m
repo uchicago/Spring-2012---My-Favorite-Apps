@@ -8,7 +8,8 @@
 
 #import "AppDelegate.h"
 
-#import "MasterViewController.h"
+#import "HomeViewController.h"
+#import "DataSingleton.h"
 
 @implementation AppDelegate
 
@@ -19,10 +20,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // Get a reference to the home view controller
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-    MasterViewController *controller = (MasterViewController *)navigationController.topViewController;
+    HomeViewController *controller = (HomeViewController *)navigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;
+    
+    // Set up the data handler singleton
+    [[DataSingleton sharedInstance] setManagedObjectContext:self.managedObjectContext];
+      
+    // Since we are loading the data each time we run it we will have duplicate data
+    // We will delete it each time at start in order to stop this
+    //[[DataSingleton sharedInstance] deleteAllObjects:@"Application"];
+    //[[DataSingleton sharedInstance] deleteAllObjects:@"Category"];
+    //[[DataSingleton sharedInstance] deleteAllObjects:@"Artist"];
+    [[DataSingleton sharedInstance] loadDefaultData];
+    
     return YES;
 }
 							
